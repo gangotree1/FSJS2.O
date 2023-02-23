@@ -6,49 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visual Studio Code- Educational Purpose</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
 <body>
-    <!-- <div>
-        <h1>Hello World</h1>
-    </div> -->
-    <div id="main">
-        <div class="navbar-fixed-container bg-black">
-            <div class="navbar navbar-inverse navbar-fixed-top " data-spy="affix" data-offset-top="1">
-                <div id='cookie-banner'></div>
-                <nav role="navigation" aria-label="Top Level">
-                    <div class="container">
-                        <div class="nav navbar-header">
-                            <img class="max-w-xs" src="logo.png" alt="Vscode Logo">
-                            <a class="navbar-brand" href="/"><span class="text-white">Visual Studio Code</span></a>
-                            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                data-target=".navbar-collapse" aria-label="Expand and Collapse Menu">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav navbar-left">
-                                <li><a id="nav-updates" href="">Updates</a></li>
-                                <li><a id="nav-blogs" href="">Blog</a></li>
-                                <li><a id="nav-extend" href="">API</a></li>
-                                <li><a href="">Extensions</a></li>
-                                <li><a id="nav-faqs" href="">FAQ</a></li>
-                                <li><a id="nav-learn" href="">Learn</a></li>
-                                <li class='search visible-xs visible-sm'><a href="">Search</a></li>
-                            </ul>
-                        </div>
+    <!-- Navbar -->
+    <nav>
+        <ul class="text-white">
+            <li><img src="assets/logo.png" alt="Vscode Logo" class="h-8"></li>
+            <li>Visual Studio Code</li>
+            <li>Docs</li>
+            <li>Updates</li>
+            <li>Blog</li>
+            <li>API</li>
+            <li>Extensions</li>
+            <li>FAQ</li>
+            <li>Learn</li>
+
+            <form class="flex items-center">
+                <label for="simple-search" class="sr-only">Search</label>
+                <div class="relative w-full">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                clip-rule="evenodd"></path>
+                        </svg>
                     </div>
-                </nav>
-            </div>
-        </div>
+                    <input type="text" id="simple-search"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Search" required>
+                </div>
+
+            </form>
+
+            <button class="border-2 fas fa-long-arrow-down">Download</button>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <p class="text-white"><a href="" id="banner-link-updates">Version 1.75</a> is now available! Read about the new
+            features and fixes from January.</p>
     </div>
 
-
-
+    <p class="text-white center">It's Educational Purpose</p>
 
 </body>
 

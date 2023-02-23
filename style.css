@@ -1,3 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #ff00ff;
+    background-color: #444;
+}
+
+nav {
+    padding: 20px 10%;
+
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 3%;
+    font-weight: 400;
+}
+
+nav button {
+    padding: 17px 20px;
+    background-color: #0066b8;
+    color: #fff;
+    font-size: 16px;
+    line-height: 100%;
+    border: none;
+    height: 50px;
+
 }
