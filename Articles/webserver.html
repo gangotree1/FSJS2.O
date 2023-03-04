@@ -14,17 +14,122 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="style.css" rel="stylesheet" />
 
-<style>
-
-</style>
 </head>
 
 <body>
+    <div class="header container-fluid">
+        <img src="images/logo.png" alt="logo" class="logo ">
+        <h2 class="fw-bold text-center">WebDev Articles</h2>
+    </div>
 
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2 class="fw-bold text-center">ARTICLES</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <a href="index.html">
+                        <button class="homebtn fw-bold">Back To Home</button>
+                    </a>
+                </div>
+            </div><br>
+            <div class="bg-white p-3 webhome">
+                <h3 class="webcontent fw-bold">What is Web Server?</h3>
+                <li class="p-3">
+                    The main job of a web server is to display website content through storing, processing and
+                    delivering webpages to users. Besides HTTP, web servers also support SMTP (Simple Mail Transfer
+                    Protocol) and FTP (File Transfer Protocol), used for email, file transfer and storage.
+                </li>
+                <h4 class="fw-bold">Summary:</h4>
+                <li>The term web server can refer to hardware or software, or both of them working together.</li><br>
+                <ol class="font-family: Arial, Helvetica, sans-serif, cursive;">
+                    <li>On the hardware side, a web server is a computer that stores web server software and a website's
+                        component files (for example, HTML documents, images, CSS stylesheets, and JavaScript files). A
+                        web server connects to the Internet and supports physical data interchange with other devices
+                        connected to the web.</li>
+                    <li>On the software side, a web server includes several parts that control how web users access
+                        hosted files. At a minimum, this is an HTTP server. An HTTP server is software that understands
+                        URLs (web addresses) and HTTP (the protocol your browser uses to view webpages). An HTTP server
+                        can be accessed through the domain names of the websites it stores, and it delivers the content
+                        of these hosted websites to the end user's device.</li>
+                </ol>
+                <img src="images/web.PNG" alt="" class="rounded mx-auto d-block">
+                <h4 class="fw-bold">Here are some common tasks handled by web servers:</h4>
+                <li>Serves HTML, CSS, and JavaScript files.</li>
+                <li>Serves images and videos.</li>
+                <li>Handles HTTP error messaging.</li>
+                <li>Handles user requests, often concurrently.</li>
+                <li>Directs URL matching and rewriting.</li>
+                <li>Processes and serves dynamic content.</li>
+                <li>Compresses content for optimized data usage and speed.</li>
+                <li>Enables browser caching for your static content.</li>
 
+                <h4 class="fw-bold">Serving Static Content:</h4>
+                <li>
+                    Besides web pages, web servers get requests for other resources such as images, videos, CSS files,
+                    and
+                    JavaScript files. Since these items are always the same regardless of who requests them, this type
+                    of
+                    content is referred to as static. Oftentimes a web page itself is just an HTML file that isn’t
+                    customized to the person requesting it, and is also treated as static content. Web servers can also
+                    compress this static content for better load times.
+                </li>
+                <li>
+                    Nginx excels as serving static content due to its event-driven request handling. Apache can also
+                    serve
+                    static content, but in most setups, not at the same speed and efficiency under load compared to
+                    Nginx.
+                </li>
+                <img src="images/static.PNG" alt="" class="rounded mx-auto d-block">
+
+                <h4 class="fw-bold">Serving Dynamic Content:</h4>
+                <li>When content is changed, processed, and customized depending on who is requesting it, the content is
+                    referred to as dynamic. For example, after you log in to a website, often the website will
+                    dynamically
+                    populate your username in the top navigation bar. Dynamic content adds extra complexity because it
+                    forces the web server to handle many requests uniquely at the time it receives it. Content tailored
+                    per
+                    request cannot be served to everyone, and cannot be universally cached.</li>
+                <li>
+                    Processing dynamic content internally removes an extra layer of abstraction that would normally
+                    require
+                    handing off the request to an external library. Apache natively implements dynamic content
+                    processing,
+                    with popular solution stacks such as LAMP (Linux, Apache, MySQL, PHP). Nginx is more language
+                    agnostic
+                    but requires external libraries such as PHP-FPM to act as a similar solution for use cases such as
+                    LAMP
+                    stack.
+                </li>
+                <img src="images/dynamic.PNG" alt="" class="rounded mx-auto d-block">
+            </div>
+        </div>
+
+        <div class="rightcolumn">
+            <div class="card">
+                <h3 class="fw-bold text-center">Articles Link</h3>
+                <a href="webserver.html" class="linkpara fw-bold text-center">Web Server</a><br>
+                <a href="htmlelements.html" class="linkpara fw-bold text-center">HTML Elements</a><br>
+                <div class="linkpara fw-bold text-center">Input Elements</div><br>
+                <div class="linkpara fw-bold text-center">Audio And Videlo Tag</div><br>
+                <div class="linkpara fw-bold text-center">Flex Box</div><br>
+                <div class="linkpara fw-bold text-center">Positioning</div><br>
+                <div class="linkpara fw-bold text-center">CSS Box Model</div><br>
+                <div class="linkpara fw-bold text-center">Media Query</div><br>
+                <div class="linkpara fw-bold text-center">CSS Grid</div><br>
+                <!-- <a href="onwebserver.html" class="fakeimg">On Web Server</a> -->
+
+            </div>
+        </div>
+    </div>
 
     <div class="footer">
-        <h2>Footer</h2>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <!-- <h2>Footer</h2> -->
     </div>
 
 </body>
