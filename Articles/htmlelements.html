@@ -25,7 +25,7 @@
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
-                <h2 class="fw-bold text-center">ARTICLES</h2>
+                <h2 class="fw-bold text-center">HTML ELEMENTS</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <a href="index.html">
                         <button class="homebtn fw-bold">Back To Home</button>
@@ -46,6 +46,16 @@
                 <p>For the default display and styling purpose in HTML, all the elements are divided into two
                     categories:
                 </p>
+
+                <h4 class="fw-bold">Nested Elements</h4>
+                <li>HTML elements can be nested, which means that elements can contain other elements inside them, or
+                    nested. All HTML documents consist of nested HTML elements.</li>
+                <li>The following example contains four HTML elements: &lt;html&gt;,
+
+                    &lt;body&gt;, &lt;h1&gt;, and &lt;p&gt;:
+
+                    <img src="images/nestedelem.PNG" alt="" class="rounded mx-auto d-block">
+
                 <li>Block-level element</li>
                 <li>Inline element</li>
 
@@ -69,26 +79,167 @@
 
                 <h5 class="fw-bold">Following is the list of the some main elements used in HTML:</h5>
 
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;html&gt;</div>
+                <p class="bg-body-secondary">Represents the root (top-level element) of an HTML document, so it is also
+                    referred to as the root
+                    element. All other elements must be descendants of this element.</p>
 
-                <!-- <code class="code">&lt;html&gt;</code> -->
-                <!-- <pre>&lt;html&gt; Contents... &lt;/html&gt;</pre> -->
-                <!-- <img src="images/web.PNG" alt="" class="rounded mx-auto d-block"> -->
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;body&gt;</div>
+                <p class="bg-body-secondary">Represents the content of an HTML document. There can be only one such
+                    element in a document.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;base&gt;</div>
+                <p class="bg-body-secondary">Specifies the base URL to use for all relative URLs in a document. There
+                    can be only one such element in a document.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;section&gt;</div>
+                <p class="bg-body-secondary"> In HTML, a section is a semantic element for creating standalone sections
+                    in a web page. These sections should be made up of related content, like contact information.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;a&gt;</div>
+                <p class="bg-body-secondary">Creates a link to another page or to a location in the current page.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;abbr&gt;</div>
+                <p class="bg-body-secondary">Indicates an abbreviation of a longer word or phrase.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;acronym&gt;</div>
+                <p class="bg-body-secondary">Creates text that will be displayed when hovered over.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;b&gt;</div>
+                <p class="bg-body-secondary">Used to draw attention to a section of text, usually rendered in boldface.
+                </p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;blockquote&gt;</div>
+                <p class="bg-body-secondary">Represents a section of a document which contains a longer quotation,
+                    usually spanning multiple
+                    lines.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;br&gt;</div>
+                <p class="bg-body-secondary">Represents a break in text. It is used when text needs to span multiple
+                    lines rather than being
+                    in-line, such as in an address.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;button&gt;</div>
+                <p class="bg-body-secondary">Represents a button meant to be clicked by the user.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;center&gt;</div>
+                <p class="bg-body-secondary">Displays its contents centered horizontally in the containing element. This
+                    is now deprecated and CSS
+                    should be used instead.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;div&gt;</div>
+                <p class="bg-body-secondary">Represents a generic division of content. It has no semantic meaning, but
+                    will separate its contents
+                    from the rest of the document.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;embed&gt;</div>
+                <p class="bg-body-secondary">Inserts external content such as a video, image, page, and more.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;form&gt;</div>
+                <p class="bg-body-secondary">Represents an interface to collect and submit user supplied information.
+                    This can include open ended
+                    text inputs, radio buttons, calendar information, and more.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;h1&gt; - &lt;h6&gt;</div>
+                <p class="bg-body-secondary">Represents a text heading for a section of content, with
+                    &lt;h1&gt; being the highest level of heading and &lt;h6&gt; being the lowest.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;head&gt;</div>
+                <p class="bg-body-secondary">Represents a collection of metadata related to the current document. It is
+                    an immediate child of the
+                    &lt;html&gt; element and may include other tags such as &lt;title&gt;, &lt;link&gt;, &lt;style&gt;,
+                    and &lt;script&gt;.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;hr&gt;</div>
+                <p class="bg-body-secondary">Represents a semantic, horizontal line break between text elements.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;iframe&gt;</div>
+                <p class="bg-body-secondary">Represents a container used to embed a second web page inside the current
+                    one. It can be used for
+                    content from the same domain as the parent, or even from a second domain.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;img&gt;</div>
+                <p class="bg-body-secondary">Displays an image on the web page.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;input&gt;</div>
+                <p class="bg-body-secondary">Creates an interactive element, usually used within a form to allow user
+                    input. It can be used to
+                    make text boxes, color pickers, date pickers, and other UI elements.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;label&gt;</div>
+                <p class="bg-body-secondary">Identifies captions for other elements in an HTML document.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;link&gt;</div>
+                <p class="bg-body-secondary">Connects the current page with an external file.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;ol&gt;</div>
+                <p class="bg-body-secondary">Represents an ordered list of items.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;ul&gt;</div>
+                <p class="bg-body-secondary">Represents an unordered list of items.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;li&gt;</div>
+                <p class="bg-body-secondary">Represents a single item in a list of items. It and the other list items
+                    must be wrapped in an
+                    &lt;ol&gt;, &lt;ul&gt;, or &lt;menu&gt; tag.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;option&gt;</div>
+                <p class="bg-body-secondary">Represents one option in a dropdown created by the select tag.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;p&gt;</div>
+                <p class="bg-body-secondary">Contains and displays a block of text that defines a paragraph.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;select&gt;</div>
+                <p class="bg-body-secondary">Creates a drop-down list for the user to select from a number of option
+                    elements.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;script&gt;</div>
+                <p class="bg-body-secondary">Used to insert runnable code into a document, usually JavaScript. Can be
+                    used both to include a script within the HTML document, or to load an external script from another
+                    source.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;style&gt;</div>
+                <p class="bg-body-secondary">Applies CSS styles to an HTML document.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;table&gt;</div>
+                <p class="bg-body-secondary">Represents an interface for adding tabular data to the page. Tables are two
+                    dimensional, made up of rows and columns, and can contain many types of content.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;textarea&gt;</div>
+                <p class="bg-body-secondary">Displays multi-line plain-text input.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;nav&gt;</div>
+                <p class="bg-body-secondary">Represents a section of a page whose purpose is to provide navigation
+                    links, either within the current document or to other documents. Common examples of navigation
+                    sections are menus, tables of contents, and indexes.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;audio&gt;</div>
+                <p class="bg-body-secondary">Represents an interface for adding audio content to the page.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;video&gt;</div>
+                <p class="bg-body-secondary">Represents an interface for adding video content to the page.</p>
+
+                <div class="fw-bold badge text-wrap" style="width: 6rem;">&lt;footer&gt;</div>
+                <p class="bg-body-secondary">
+                    Represents a footer for its nearest ancestor sectioning content or sectioning root element. A
+                    &lt;footer&gt; typically contains information about the author of the section, copyright data or
+                    links to related documents.
+                </p>
 
             </div>
         </div>
 
         <div class="rightcolumn">
             <div class="card">
-                <h3 class="fw-bold text-center">Articles Link</h3>
                 <a href="webserver.html" class="linkpara fw-bold text-center">Web Server</a><br>
                 <a href="htmlelements.html" class="linkpara fw-bold text-center">HTML Elements</a><br>
-                <div class="linkpara fw-bold text-center">Input Elements</div><br>
-                <div class="linkpara fw-bold text-center">Audio And Videlo Tag</div><br>
-                <div class="linkpara fw-bold text-center">Flex Box</div><br>
-                <div class="linkpara fw-bold text-center">Positioning</div><br>
-                <div class="linkpara fw-bold text-center">CSS Box Model</div><br>
-                <div class="linkpara fw-bold text-center">Media Query</div><br>
-                <div class="linkpara fw-bold text-center">CSS Grid</div><br>
+                <a href="inputelements.html" class="linkpara fw-bold text-center">Input Elements</a><br>
+                <a href="audiovideotag.html" class="linkpara fw-bold text-center">Audio And Videlo Tag</a><br>
+                <a href="flexbox.html" class="linkpara fw-bold text-center">Flex Box</a><br>
+                <a href="positioning.html" class="linkpara fw-bold text-center">Positioning</a><br>
+                <a href="boxmodel.html" class="linkpara fw-bold text-center">CSS Box Model</a><br>
+                <a href="mediaquery.html" class="linkpara fw-bold text-center">Media Query</a><br>
+                <a href="grid.html" class="linkpara fw-bold text-center">CSS Grid</a><br>
                 <!-- <a href="onwebserver.html" class="fakeimg">On Web Server</a> -->
 
             </div>
