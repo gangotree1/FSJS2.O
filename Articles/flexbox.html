@@ -25,7 +25,7 @@
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
-                <h2 class="fw-bold text-center">FLEX BOX</h2>
+                <h2 class="fw-bold text-center">FLEXBOX</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <a href="index.html">
                         <button class="homebtn fw-bold">Back To Home</button>
@@ -34,6 +34,56 @@
             </div><br>
 
             <div class="bg-white p-3 webhome">
+                <h3 class="fw-bold">What Is Flexbox?</h3>
+                <li>Flexbox makes browsers display selected HTML elements as flexible box models.</li>
+                <li>Flexbox allows easy resizing and repositioning of a flexible container and its items
+                    one-dimensionally.</li>
+                <li>One-dimensionally" means Flexbox allows laying out box models in a row or column at a time. In other
+                    words, Flexbox cannot lay out box models in a row and column at the same time.</li>
+                <h4 class="fw-bold">The two axes of flexbox</h4>
+                <li>When working with flexbox you need to think in terms of two axes — the main axis and the cross axis.
+                    The main axis is defined by the flex-direction property, and the cross axis runs perpendicular to
+                    it. Everything we do with flexbox refers back to these axes, so it is worth understanding how they
+                    work from the outset.</li>
+
+                <h5 class="fs-3 text">The main axis:</h5>
+                <p>The main axis is defined by flex-direction, which has four possible values:</p>
+                <li>row</li>
+                <li>row-reverse</li>
+                <li>column</li>
+                <li>column-reverse</li>
+                <p>Should you choose row or row-reverse, your main axis will run along the row in the inline direction.
+                </p>
+                <img src="images/rowflex.PNG" alt="rowflex" class="mx-auto">
+                <p>Choose column or column-reverse and your main axis will run from the top of the page to the bottom —
+                    in the block direction.</p>
+                <img src="images/colflex.PNG" alt="colflex" class="mx-auto">
+
+                <h5 class="fs-3 text">The cross axis:</h5>
+                <p>The cross axis runs perpendicular to the main axis, therefore if your flex-direction (main axis) is
+                    set to row or row-reverse the cross axis runs down the columns.</p>
+                <img src="images/rowreverse.PNG" alt="colflex" class="mx-auto">
+                <p>If your main axis is column or column-reverse then the cross axis runs along the rows.</p>
+                <img src="images/colreverse.PNG" alt="colflex" class="mx-auto">
+
+                <h5 class="fs-3 text">Flexbox Properties:</h5>
+
+                <li>display defines a flex container – flex formatting context.</li>
+                <li>flex-direction defines the main axis inside the container.</li>
+                <li>flex-wrap allows flex items to wrap onto more than one line.</li>
+                <li>flex-flow shorthand for flex-direction + flex-wrap.</li>
+                <li>justify-content allows items to align along main axis.</li>
+                <li>align-content allows items to align along cross axis in a single line.</li>
+                <li>align-items aligns multiple lines of items on the cross axis.</li>
+
+                <h5 class="fs-3 text">Parent properties:</h5>
+
+                <li>order allows the change of order of items without altering the source order.</li>
+                <li>flex-grow allows an item to fill up the available free space.</li>
+                <li>flex-shrink allows an item to shrink if there is no enough free space available.</li>
+                <li>flex-basis defines the size of an item before space is distributed.</li>
+                <li>flex is the shorthand for flex-grow + flex-shrink + flex-basis.</li>
+                <li>flex-self has the ability to align one single item within the flex container.</li>
 
 
             </div>
