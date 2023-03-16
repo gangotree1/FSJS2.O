@@ -7,7 +7,6 @@ body {
     background-color: #7d86b8;
     font-family: Arial;
     padding: 20px;
-
 }
 
 #cardlink {
@@ -34,6 +33,7 @@ body {
     font-family: Arial;
 }
 
+
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
@@ -47,6 +47,7 @@ body {
     width: 25%;
     height: 25%;
     padding-left: 20px;
+
 }
 
 .logo {
@@ -140,19 +141,11 @@ body {
     text-decoration: none;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 /* Footer */
 .footer {
     padding: 20px;
     text-align: center;
     background: #ddd;
-    margin-top: 20px;
     row-gap: 20px;
 }
 
