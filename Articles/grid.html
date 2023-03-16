@@ -51,11 +51,106 @@
                 <li>This is a CSS grid property that houses the grid items/elements. We implement the CSS grid container
                     property by setting the container to a display property of grid or in-line grid.</li>
                 <p>For Example:</p>
-                <p class="bg-body-secondary">A control that lets the user select a file. Use the
-                    accept attribute
-                    to
-                    define the types of files that the control can select.</p>
+                <p class="bg-body-secondary para-body fw-bold">display: grid;</p>
 
+                <h5 class="fw-bold">Grid-template-column:</h5>
+                <li>This is a property used to set each column’s width. It can also define how many columns you want to
+                    set to your project.</li>
+                <li>You can implement the CSS gird column property using grid-template-column.</li>
+                <p>For Example:</p>
+                <p class="bg-body-secondary para-body fw-bold">grid-template-column: 100px auto 100px;</p>
+                <li>The code above shows that we have three columns. The width of columns one (the first column) and
+                    three (the third column) are set to 100px. The width of column two (the middle column) is set to
+                    auto.</li>
+                <li>This means that as the size of your screen increases, columns one and three take 100px of the screen
+                    width, while column two takes the remaining width of the screen (which is auto).
+
+                </li>
+
+                <h5 class="fw-bold">Grid-template-row property:</h5>
+                <li>You use the CSS row property to set the height of each column. You can also use it to define how
+                    many rows you want to set in your project.</li>
+                <li>You can implement the CSS gird row property using grid-template-row, like this:</li>
+                <p class="bg-body-secondary para-body fw-bold">grid-template-row: 50px 50px;</p>
+                <li>The code above shows that we have a total of two rows and those two rows are 50px high.</li>
+                <p>For Example:</p>
+                <p class="bg-body-secondary para-body fw-bold"> grid-template: 50px 50px / 100px auto 100px;</p>
+                <img src="images/css-grid.PNG" alt="rowflex" class="mx-auto">
+
+                <h5 class="fw-bold">Column-gap property</h5>
+                <li>As the name states, it is a grid property that assigns a space between two or more columns in a
+                    container. You can do this by using the column-gap property and giving it a value. For example:</li>
+                <p class="bg-body-secondary para-body fw-bold">column-gap: 20px;</p>
+                <img src="images/col-gap.PNG" alt="rowflex" class="mx-auto">
+
+                <h5 class="fw-bold">Row-gap property</h5>
+                <li>Just like column-gap, row-gap is a CSS property that assigns a space between two or more rows in a
+                    container. For example:</li>
+                <p class="bg-body-secondary para-body fw-bold">row-gap: 50px;</p>
+                <img src="images/row-gap.PNG" alt="rowflex" class="mx-auto">
+                <li>We can also assign a gap to both the columns and rows of a container by using the gap property. For
+                    this to work, we only assign one value to both the columns and the rows of the container, just like
+                    we did in the code above. For example:</li>
+                <p class="bg-body-secondary para-body fw-bold">gap: 20px;</p>
+                <img src="images/row-gap.PNG" alt="rowflex" class="mx-auto">
+
+                <h5>Justify-content property</h5>
+                <p>This is a grid property that you use in positioning items (columns and rows) horizontally in a
+                    container. It displays how the web browser positions the spaces around the items (columns and rows).
+                    The justify-content property has six possible values:
+
+                </p>
+
+                <ul>
+                    <li>Start</li>
+                    <li>end</li>
+                    <li>center</li>
+                    <li>space-around</li>
+                    <li>space-between</li>
+                    <li>space-evenly</li>
+                </ul>
+
+                <h5 class="fw-bold">Start:</h5>
+                <p>This positions the items at the left side of the browser and can be executed with the following code:
+                </p>
+                <p class="bg-body-secondary para-body fw-bold">justify-content: start;</p>
+                <img src="images/content-start.PNG" alt="content-start" class="mx-auto">
+
+                <h5 class="fw-bold">End:</h5>
+                <p>This positions the items at the right side of the browser and can be executed with the following
+                    code:</p>
+                <p class="bg-body-secondary para-body fw-bold">justify-content: end;
+                </p>
+                <img src="images/content-end.PNG" alt="content-start" class="mx-auto">
+
+                <h5 class="fw-bold">Center:</h5>
+                <p>This positions the items at the center of the browser and can be executed with the following code:
+                </p>
+                <p class="bg-body-secondary para-body fw-bold">justify-content: center;
+                </p>
+                <img src="images/content-center.PNG" alt="content-start" class="mx-auto">
+
+                <h5 class="fw-bold">Space-around:</h5>
+                <p>This property distributes the items in the container evenly, where each item in the container has an
+                    equal amount of space from the next container.</p>
+                <p class="bg-body-secondary para-body fw-bold">justify-content: space-around;
+                </p>
+                <img src="images/content-space-around.PNG" alt="content-start" class="mx-auto">
+
+                <h5 class="fw-bold">Space-between:</h5>
+                <p>Just like the space-around property, space-between distributes the items in the container evenly,
+                    where each item in the container has an equal amount of space from the next one in the container. It
+                    takes up the entire width of the container.</p>
+                <p class="bg-body-secondary para-body fw-bold">justify-content: space-between;
+                </p>
+                <img src="images/content-space-between.PNG" alt="content-start" class="mx-auto">
+
+                <h5 class="fw-bold">Space-evenly:</h5>
+                <p>Just as the name states, this property distributes the items in the container evenly, where each item
+                    in the container has an equal amount of space from the next one in the container.</p>
+                <p class="bg-body-secondary para-body fw-bold">justify-content: space-evenly;
+                </p>
+                <img src="images/content-space-evenly.PNG" alt="content-start" class="mx-auto">
 
             </div>
         </div>

@@ -55,6 +55,10 @@ body {
 
 }
 
+.para-body {
+    padding: 2%;
+}
+
 .homebtn {
     border-radius: 5%;
     width: 30%;
